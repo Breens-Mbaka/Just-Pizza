@@ -1,0 +1,16 @@
+.links {
+    margin: 0 auto;
+    margin-right: 50px;
+  }
+  
+  li {
+    float: left;
+    list-style-type: none;
+    justify-content: space-evenly;
+    padding-right: 30px;
+  }
+
+#logo {
+    color: blue;
+    font-size: 28px;
+}
