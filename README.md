@@ -11,7 +11,7 @@
 * [Copyright and license](#copyright-and-license)
 
 ## Project description
-Add more general information about project. What the purpose of the project is? Motivation?
+Just Pizza is an pizza shop where now you can order a vast range of pizza online and get delivered.You can customize your pizza to your own choice and preference.
 
 ## Technologies
 * Javascript
