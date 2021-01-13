@@ -19,21 +19,42 @@ body {
     font-size: 28px;
 }
 
+#pizza-slice {
+  width: 24px;
+  height: 24px;
+}
+
 .row {
     margin-top: 10px;
 }
 
-.heading1 {
+.heading-1 {
     margin-right: 50px;
     font-size: 14px;
 }
 
-.heading1 h1 {
-    font-size: 3.3rem;
+.heading-1 h1 {
+    font-size: 3.1rem;
+    color: blue;
 }
 
-.heading1 p {
+.heading-1 p {
     font-size: 1.1rem;
+}
+
+#button-1 {
+  background-color: blue;
+  border-radius: 25px;
+  padding: 12px;
+  color: white;
+  border-style: none;
+  font-size: 1.2rem;
+  outline: none;
+  margin-top: 5px;
+}
+
+#button-1:hover {
+  opacity: 0.7;
 }
 
 .delivery-bike {
