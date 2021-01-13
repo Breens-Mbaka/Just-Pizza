@@ -1,3 +1,7 @@
+body {
+    font-family: 'Patrick Hand', cursive;
+}
+
 .links {
     margin: 0 auto;
     margin-right: 50px;
@@ -13,4 +17,25 @@
 #logo {
     color: blue;
     font-size: 28px;
+}
+
+.row {
+    margin-top: 10px;
+}
+
+.heading1 {
+    margin-right: 50px;
+    font-size: 14px;
+}
+
+.heading1 h1 {
+    font-size: 3.3rem;
+}
+
+.heading1 p {
+    font-size: 1.1rem;
+}
+
+.delivery-bike {
+    padding-top: 85px;
 }
