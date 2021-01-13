@@ -39,3 +39,50 @@ body {
 .delivery-bike {
     padding-top: 85px;
 }
+
+.heading-2 {
+  text-align: center;
+  font-size: 2.4rem;
+  color: blue;
+}
+
+.card {
+  box-shadow: rgb(75, 74, 74);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+  
+.price {
+  color: grey;
+  font-size: 22px;
+}
+  
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: blue;
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+  font-size: 18px;
+  border-radius: 7px;
+}
+  
+.card button:hover {
+  opacity: 0.7;
+}
+
+.classic-pizza {
+  margin-top: 130px;
+}
+
+.deluxe-pizza {
+  margin-top: 70px;
+}
+
+.supreme-pizza {
+  margin-top: 70px;
+}
