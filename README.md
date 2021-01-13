@@ -1,5 +1,5 @@
 # Project Name
-> Here goes your awesome project description!
+> Just Pizza 
 
 ## Table of contents
 * [Project description](#project-description)
