@@ -20,7 +20,11 @@ Add more general information about project. What the purpose of the project is? 
 * Bootstrap
 
 ## Project Setup
-Describe how to install / setup your local environement / add link to demo version.
+```
+git clone https://github.com/Breens-Thomas/Just-Pizza.git
+cd just-pizza
+code .
+```
 
 ## Behaviour driven development
 * User sees categories of pizza available
