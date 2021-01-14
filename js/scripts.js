@@ -83,8 +83,8 @@ $(document).ready(function() {
     $("input:radio[type=radio]").on("change", function() {
         if ($("#delivery").is(":checked")) {
             $(".location").show();
+            swal("Delivery fee: $ 1.99");
         }
       })
-      // trigger `change` event at page load
       .change();
 });
