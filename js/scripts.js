@@ -36,6 +36,9 @@ $(document).ready(function() {
         var smallSize = mealOne.smallSize
         var mediumSize = mealOne.mediumSize
         var largeSize = mealOne.largeSize
+        var toppingOne = mealOne.toppingOne;
+        var toppingTwo = mealOne.toppingTwo;
+        var toppingThree = mealOne.toppingThree;
     }) ;
     $("#button-3").click(function() {
         var nameOfMealTwo = mealTwo.name
@@ -43,6 +46,9 @@ $(document).ready(function() {
         var smallSize = mealTwo.smallSize
         var mediumSize = mealTwo.mediumSize
         var largeSize = mealTwo.largeSize
+        var toppingOne = mealTwo.toppingOne;
+        var toppingTwo = mealTwo.toppingTwo;
+        var toppingThree = mealTwo.toppingThree;
     }) ;
     $("#button-4").click(function() {
         var nameOfMealThree = mealThree.name
@@ -50,6 +56,9 @@ $(document).ready(function() {
         var smallSize = mealThree.smallSize
         var mediumSize = mealThree.mediumSize
         var largeSize = mealThree.largeSize
+        var toppingOne = mealThree.toppingOne;
+        var toppingTwo = mealThree.toppingTwo;
+        var toppingThree = mealThree.toppingThree;
     }) ;
     $("#button-5").click(function() {
         var nameOfMealFour = mealFour.name
@@ -57,6 +66,9 @@ $(document).ready(function() {
         var smallSize = mealFour.smallSize
         var mediumSize = mealFour.mediumSize
         var largeSize = mealFour.largeSize
+        var toppingOne = mealFour.toppingOne;
+        var toppingTwo = mealFour.toppingTwo;
+        var toppingThree = mealFour.toppingThree;
     }) ;
     $("#button-6").click(function() {
         var nameOfMealFive = mealFive.name
@@ -64,6 +76,9 @@ $(document).ready(function() {
         var smallSize = mealFive.smallSize
         var mediumSize = mealFive.mediumSize
         var largeSize = mealFive.largeSize
+        var toppingOne = mealFive.toppingOne;
+        var toppingTwo = mealFive.toppingTwo;
+        var toppingThree = mealFive.toppingThree;
     }) ;
     $("#button-7").click(function() {
         var nameOfMealSix = mealSix.name
@@ -71,6 +86,9 @@ $(document).ready(function() {
         var smallSize = mealSix.smallSize
         var mediumSize = mealSix.mediumSize
         var largeSize = mealSix.largeSize
+        var toppingOne = mealSix.toppingOne;
+        var toppingTwo = mealSix.toppingTwo;
+        var toppingThree = mealSix.toppingThree;
     }) ;
     $("#button-8").click(function() {
         var nameOfMealSeven = mealSeven.name
@@ -78,6 +96,9 @@ $(document).ready(function() {
         var smallSize = mealSeven.smallSize
         var mediumSize = mealSeven.mediumSize
         var largeSize = mealSeven.largeSize
+        var toppingOne = mealSeven.toppingOne;
+        var toppingTwo = mealSeven.toppingTwo;
+        var toppingThree = mealSeven.toppingThree;
     }) ;
     $("#button-9").click(function() {
         var nameOfMealEight = mealEight.name
@@ -85,6 +106,9 @@ $(document).ready(function() {
         var smallSize = mealEight.smallSize
         var mediumSize = mealEight.mediumSize
         var largeSize = mealEight.largeSize
+        var toppingOne = mealEight.toppingOne;
+        var toppingTwo = mealEight.toppingTwo;
+        var toppingThree = mealEight.toppingThree;
     }) ;
     $("#button-10").click(function() {
         var nameOfMealNine = mealNine.name
@@ -92,6 +116,9 @@ $(document).ready(function() {
         var smallSize = mealNine.smallSize
         var mediumSize = mealNine.mediumSize
         var largeSize = mealNine.largeSize
+        var toppingOne = mealNine.toppingOne;
+        var toppingTwo = mealNine.toppingTwo;
+        var toppingThree = mealNine.toppingThree;
     }) ;
     $("#button-11").click(function() {
         var nameOfMealTen = mealTen.name
@@ -99,6 +126,9 @@ $(document).ready(function() {
         var smallSize = mealTen.smallSize
         var mediumSize = mealTen.mediumSize
         var largeSize = mealTen.largeSize
+        var toppingOne = mealTen.toppingOne;
+        var toppingTwo = mealTen.toppingTwo;
+        var toppingThree = mealTen.toppingThree;
     }) ;
     $("#button-12").click(function() {
         var nameOfMealEleven = mealEleven.name
@@ -106,6 +136,9 @@ $(document).ready(function() {
         var smallSize = mealEleven.smallSize
         var mediumSize = mealEleven.mediumSize
         var largeSize = mealEleven.largeSize
+        var toppingOne = mealEleven.toppingOne;
+        var toppingTwo = mealEleven.toppingTwo;
+        var toppingThree = mealEleven.toppingThree;
     }) ;
     $("#button-12").click(function() {
         var nameOfMealTwelve = mealTwelve.name
@@ -113,6 +146,9 @@ $(document).ready(function() {
         var smallSize = mealTwelve.smallSize
         var mediumSize = mealTwelve.mediumSize
         var largeSize = mealTwelve.largeSize
+        var toppingOne = mealTwelve.toppingOne;
+        var toppingTwo = mealTwelve.toppingTwo;
+        var toppingThree = mealTwelve.toppingThree;
     }) ;
     //get data from the options selected
     $("#order-1").click(function(){
