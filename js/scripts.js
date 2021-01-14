@@ -76,8 +76,15 @@ $(document).ready(function() {
         var size = $(".size input[type='radio']:checked").val();
         var crust = $(".crust input[type='radio']:checked").val();
         var toppings = $(".toppings input[type='radio']:checked").val();
-        var number = $(".number input[type='radio']:checked").val();
+        var number = $("#quantity").val();
         var delivery = $(".delivery input[type='radio']:checked").val();
-        console.log(size,crust,toppings,number,delivery);
+        var location = $("#location").val();
     });
+    $("input:radio[type=radio]").on("change", function() {
+        if ($("#delivery").is(":checked")) {
+            $(".location").show();
+        }
+      })
+      // trigger `change` event at page load
+      .change();
 });

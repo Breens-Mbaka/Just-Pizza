@@ -133,3 +133,11 @@ body {
   margin-top: 20px;
   color: blue;
 }
+
+#order-1 {
+  margin-top: 20px;
+}
+
+.location {
+  display: none;
+}

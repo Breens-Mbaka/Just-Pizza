@@ -64,9 +64,9 @@
                     <label for="crispy">Crispy</label>
                 </div>
                 <div class="number">
-                    <p class="paragraphs">4.Number of pizza</p>
-                    <button class="btn btn-primary">+</button>
-                    <button class="btn btn-primary">-</button>
+                    <p class="paragraphs">4.Number of pizza(between 1-1000)</p>
+                    <label for="quantity"></label>
+                    <input type="number" id="quantity" name="quantity" min="1" max="1000">
                 </div>
                 <div class="delivery">
                     <p class="paragraphs">5.Delivery or Pickup ?</p>
@@ -75,10 +75,11 @@
                     <input type="radio" id="pickup" name="collection" value="pickup" class="radio-input">
                     <label for="delivery">Pickup</label>
                 </div>
-        
+                <div class="location">
                     <p class="paragraphs">6.Enter delivery adresss</p>
-                    <input type="text" name="" id="location">
+                    <input type="text" name="" id="input-location"><br>
                     <button class="btn btn-primary" id="order-1">Order</button>
+                </div>
             </div>
             <div class="col-md-6">
                 <div class="card">
