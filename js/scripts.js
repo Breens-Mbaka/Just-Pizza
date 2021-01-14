@@ -1,51 +1,83 @@
 //Business logic
 //Store data for the name and price of each item
-var hawaiian = {
-    name:"hawaiian",
-    price: 19.99
-}
-var borewors = {
-    name:"borewors",
-    price: 19.00
-}
-var bbqSteak = {
-    name:"BBQ Steak",
-    price: 21.00
-}
-var chickenTikka = {
-    name:"Chicken Tikka",
-    price: 20.00
-}
-var chickenBacon = {
-    name:"Chicken Bacon BBQ",
-    price: 19.55
-}
-var vegFeast = {
-    name:"Veg Feast",
-    price: 22.00
-}
-var spicyBorewors = {
-    name:"Spicy Borewors",
-    price: 22.50
-}
+function Meal(name, price) {
+    this.name = name;
+    this.price = price;
+  }
+var mealOne = new Meal("Hawaiian",19.99)
+var mealTwo = new Meal("Borewors",19.00)
+var mealThree = new Meal("BBQ Steak",21.00)
+var mealFour = new Meal("Chicken Tikka",20.00)
+var mealFive = new Meal("Chicken Bacon BBQ",19.55)
+var mealSix = new Meal("Veg Feast",22.00)
+var mealSeven = new Meal("Spicy Borewors",22.50)
+var mealEight = new Meal("Chicken Pepperoni",23.00)
+var mealNine = new Meal("Chicken Mushroom",24.00)
+var mealTen = new Meal("Nyama Feast",24.55)
+var mealEleven = new Meal("Roast Veg & Feta",25.00)
+var mealTwelve = new Meal("Peri Peri Chicken",26.00)
 
-var chickenPepperoni = {
-    name:"Chicken Pepperoni",
-    price: 23.00
-}
-var chickenMushroom = {
-    name: "Chicken Mushroom",
-    price: 24.00
-}
-var nyamaFeast = {
-    name: "Nyama Feast",
-    price: 24.55
-}
-var roastVeg = {
-    name: "Roast Veg & Feta",
-    price: 25.00
-}
-var periChicken = {
-    name: "Peri Peri Chicken",
-    price: 26.00
-}
+
+//user interface logic
+//get data from the home page
+$(document).ready(function() {
+    $("#button-2").click(function() {
+        var nameOfMealOne = mealOne.name
+        var nameOfPriceOne = mealOne.price
+    }) ;
+    $("#button-3").click(function() {
+        var nameOfMealTwo = mealTwo.name
+        var nameOfPriceTwo = mealTwo.price
+    }) ;
+    $("#button-4").click(function() {
+        var nameOfMealThree = mealThree.name
+        var nameOfPriceThree = mealThree.price
+    }) ;
+    $("#button-5").click(function() {
+        var nameOfMealFour = mealFour.name
+        var nameOfPriceFour = mealFour.price
+    }) ;
+    $("#button-6").click(function() {
+        var nameOfMealFive = mealFive.name
+        var nameOfPriceFive = mealFive.price
+    }) ;
+    $("#button-7").click(function() {
+        var nameOfMealSix = mealSix.name
+        var nameOfPriceSix = mealSix.price
+    }) ;
+    $("#button-8").click(function() {
+        var nameOfMealSeven = mealSeven.name
+        var nameOfPriceSeven = mealSeven.price
+    }) ;
+    $("#button-9").click(function() {
+        var nameOfMealEight = mealEight.name
+        var nameOfPriceEight = mealEight.price
+    }) ;
+    $("#button-10").click(function() {
+        var nameOfMealNine = mealNine.name
+        var nameOfPriceNine = mealNine.price
+    }) ;
+    $("#button-11").click(function() {
+        var nameOfMealTen = mealTen.name
+        var nameOfPriceTen = mealTen.price
+    }) ;
+    $("#button-12").click(function() {
+        var nameOfMealEleven = mealEleven.name
+        var nameOfPriceEleven = mealEleven.price
+    }) ;
+    $("#button-12").click(function() {
+        var nameOfMealTwelve = mealTwelve.name
+        var nameOfPriceTwelve = mealTwelve.price
+        console.log(nameOfMealTwelve)
+        console.log(nameOfPriceTwelve)
+    }) ;
+    //get data from the options selected
+    $("#order-1").click(function(){
+        var size = $(".size input[type='radio']:checked").val();
+        var crust = $(".crust input[type='radio']:checked").val();
+        var toppings = $(".toppings input[type='radio']:checked").val();
+        var number = $(".number input[type='radio']:checked").val();
+        var delivery = $(".delivery input[type='radio']:checked").val();
+        console.log(size,crust,toppings,number,delivery);
+    });
+});

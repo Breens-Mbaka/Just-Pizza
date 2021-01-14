@@ -120,3 +120,16 @@ body {
 .heading-2 {
   margin-bottom: 20px;
 }
+
+.container .row .customize {
+  text-align: center;
+}
+
+.container .row .customize input {
+  padding-top: 25px;
+}
+
+.paragraphs {
+  margin-top: 20px;
+  color: blue;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Just Pizza</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1" id="logo">Just Pizza</span>
+            <img src="images/pizza-slice.svg" alt="" id="pizza-slice">
+            <div class="links">
+                <ul>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Order</a>
+                    </li>
+                  </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 customize">
+                <div class="size">
+                    <p class="paragraphs">1.Size of Pizza ?</p>
+                    <input type="radio" id="large" name="size" value="large" class="radio-input">
+                    <label for="large">Large</label>
+                    <input type="radio" id="Medium" name="size" value="medium" class="radio-input">
+                    <label for="medium">Medium</label>
+                    <input type="radio" id="Small" name="size" value="small" class="radio-input">
+                    <label for="small">Small</label>
+                </div>
+                <div class="crust">
+                    <p class="paragraphs">2.Crust ?</p>
+                    <input type="radio" id="crispy" name="crust" value="crispy" class="radio-input">
+                    <label for="crispy">Crispy</label>
+                    <input type="radio" id="stuffed" name="crust" value="stuffed" class="radio-input">
+                    <label for="stuffed">Stuffed</label>
+                    <input type="radio" id="gluten-free" name="crust" value="gluten-free" class="radio-input">
+                    <label for="gluten-free">gluten-free</label>
+
+                </div>
+                <div class="toppings">
+                    <p class="paragraphs">3.Toppings ?</p>
+                    <input type="radio" id="pepperoni" name="toppings" value="pepperoni" class="radio-input">
+                    <label for="pepperoni">Pepperoni</label>
+                    <input type="radio" id="pineapples" name="toppings" value="pineapples" class="radio-input">
+                    <label for="crispy">Pineapples</label>
+                    <input type="radio" id="sausages" name="toppings" value="sausages" class="radio-input">
+                    <label for="crispy">Crispy</label>
+                </div>
+                <div class="number">
+                    <p class="paragraphs">4.Number of pizza</p>
+                    <button class="btn btn-primary">+</button>
+                    <button class="btn btn-primary">-</button>
+                </div>
+                <div class="delivery">
+                    <p class="paragraphs">5.Delivery or Pickup ?</p>
+                    <input type="radio" id="delivery" name="collection" value="delivery" class="radio-input">
+                    <label for="delivery">Delivery</label>
+                    <input type="radio" id="pickup" name="collection" value="pickup" class="radio-input">
+                    <label for="delivery">Pickup</label>
+                </div>
+        
+                    <p class="paragraphs">6.Enter delivery adresss</p>
+                    <input type="text" name="" id="location">
+                    <button class="btn btn-primary" id="order-1">Order</button>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                      <h5 class="card-title">Order Summary</h5>
+                      <p class="card-text"></p>
+                      <p class="card-text"></p>
+                      <p class="card-text"></p>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="js/scripts.js"></script>
+    <script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous">
+    </script>
+</body>
+</html>

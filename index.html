@@ -9,6 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script
+        src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+        crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="container">
@@ -58,9 +62,9 @@
             <div class="col-3">
                 <div class="card">
                     <img src="images/saranjeet-singh-w_2PDrzBemo-unsplash.jpg" alt="Denim Jeans" style="width:100%" id="classic">
-                    <h3>Hawaiian</h3>
+                    <h3 id="meal-1">Hawaiian</h3>
                     <p class="price">$19.99</p>
-                    <p><button>Add to Cart</button></p>
+                    <p><button id="button-1">Add to Cart</button></p>
                 </div>
             </div>
             <div class="col-3">
@@ -68,7 +72,7 @@
                     <img src="images/sarthak-sharma-A_GwTLJH-ew-unsplash.jpg" alt="Denim Jeans" style="width:100%" id="classic">
                     <h3>Borewors</h3>
                     <p class="price">$19.00</p>
-                    <p><button>Add to Cart</button></p>
+                    <p><button id="button-2">Add to Cart</button></p>
                 </div>
             </div>
             <div class="col-3">
@@ -76,7 +80,7 @@
                     <img src="images/saranjeet-singh-w_2PDrzBemo-unsplash.jpg" alt="Denim Jeans" style="width:100%" id="classic">
                     <h3>BBQ Steak</h3>
                     <p class="price">$21.00</p>
-                    <p><button>Add to Cart</button></p>
+                    <p><button id="button-3">Add to Cart</button></p>
                 </div>
             </div>
             <div class="col-3">
@@ -84,7 +88,7 @@
                     <img src="images/sarthak-sharma-A_GwTLJH-ew-unsplash.jpg" alt="Denim Jeans" style="width:100%" id="classic">
                     <h3>Chicken Tikka</h3>
                     <p class="price">$20.00</p>
-                    <p><button>Add to Cart</button></p>
+                    <p><button id="button-4">Add to Cart</button></p>
                 </div>
             </div>
         </div>
@@ -99,7 +103,7 @@
                     <img src="images/saranjeet-singh-w_2PDrzBemo-unsplash.jpg" alt="Denim Jeans" style="width:100%" id="classic">
                     <h3>Chicken Bacon BBQ</h3>
                     <p class="price">$19.55</p>
-                    <p><button>Add to Cart</button></p>
+                    <p><button id="button-5">Add to Cart</button></p>
                 </div>
             </div>
             <div class="col-3">
@@ -107,7 +111,7 @@
                     <img src="images/sarthak-sharma-A_GwTLJH-ew-unsplash.jpg" alt="Denim Jeans" style="width:100%" id="classic">
                     <h3>Veg Feast</h3>
                     <p class="price">$22.00</p>
-                    <p><button>Add to Cart</button></p>
+                    <p><button id="button-6">Add to Cart</button></p>
                 </div>
             </div>
             <div class="col-3">
@@ -115,7 +119,7 @@
                     <img src="images/saranjeet-singh-w_2PDrzBemo-unsplash.jpg" alt="Denim Jeans" style="width:100%" id="classic">
                     <h3>Spicy Borewors</h3>
                     <p class="price">$22.50</p>
-                    <p><button>Add to Cart</button></p>
+                    <p><button id="button-7">Add to Cart</button></p>
                 </div>
             </div>
             <div class="col-3">
@@ -123,7 +127,7 @@
                     <img src="images/sarthak-sharma-A_GwTLJH-ew-unsplash.jpg" alt="Denim Jeans" style="width:100%" id="classic">
                     <h3>Chicken Pepperoni</h3>
                     <p class="price">$23.00</p>
-                    <p><button>Add to Cart</button></p>
+                    <p><button id="button-8">Add to Cart</button></p>
                 </div>
             </div>
         </div>
@@ -138,7 +142,7 @@
                     <img src="images/sarthak-sharma-A_GwTLJH-ew-unsplash.jpg" alt="Denim Jeans" style="width:100%" id="classic">
                     <h3>Chicken Mushroom</h3>
                     <p class="price">$24.00</p>
-                    <p><button>Add to Cart</button></p>
+                    <p><button id="button-9">Add to Cart</button></p>
                 </div>
             </div>
             <div class="col-3">
@@ -146,7 +150,7 @@
                     <img src="images/saranjeet-singh-w_2PDrzBemo-unsplash.jpg" alt="Denim Jeans" style="width:100%" id="classic">
                     <h3>Nyama Feast</h3>
                     <p class="price">$24.55</p>
-                    <p><button>Add to Cart</button></p>
+                    <p><button id="button-10">Add to Cart</button></p>
                 </div>
             </div>
             <div class="col-3">
@@ -154,7 +158,7 @@
                     <img src="images/sarthak-sharma-A_GwTLJH-ew-unsplash.jpg" alt="Denim Jeans" style="width:100%" id="classic">
                     <h3>Roast Veg & Feta</h3>
                     <p class="price">$25.00</p>
-                    <p><button>Add to Cart</button></p>
+                    <p><button id="button-11">Add to Cart</button></p>
                 </div>
             </div>
             <div class="col-3">
@@ -162,7 +166,7 @@
                     <img src="images/saranjeet-singh-w_2PDrzBemo-unsplash.jpg" alt="Denim Jeans" style="width:100%" id="classic">
                     <h3>Peri Peri Chicken</h3>
                     <p class="price">$26.00</p>
-                    <p><button>Add to Cart</button></p>
+                    <p><button id="button-12">Add to Cart</button></p>
                 </div>
             </div>
         </div>
@@ -175,12 +179,5 @@
 
     <script src="js/scripts.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-        AOS.init();
-      </script>
-    <script
-  src="https://code.jquery.com/jquery-3.5.1.js"
-  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-  crossorigin="anonymous"></script>
 </body>
 </html>
