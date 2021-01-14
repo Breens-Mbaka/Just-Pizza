@@ -5,6 +5,7 @@
 * [Project description](#project-description)
 * [Technologies](#technologies)
 * [Project setup](#project-setup)
+* [Link to live site](#link-to-live-site)
 * [Behaviour driven development](#behaviour-driven-development)
 * [Status](#status)
 * [Contact](#contact)
@@ -25,6 +26,9 @@ git clone https://github.com/Breens-Thomas/Just-Pizza.git
 cd just-pizza
 code .
 ```
+
+## Link to live site
+[live site](https://breens-thomas.github.io/Just-Pizza/)
 
 ## Behaviour driven development
 * User sees categories of pizza available
