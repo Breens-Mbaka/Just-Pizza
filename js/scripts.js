@@ -1,21 +1,25 @@
 //Business logic
 //Store data for the name and price of each item
-function Meal(name, price) {
+function Meal(name, price, smallSize,
+            mediumSize,largeSize) {
     this.name = name;
     this.price = price;
+    this.smallSize = smallSize;
+    this.mediumSize = mediumSize;
+    this.largeSize = largeSize;
   }
-var mealOne = new Meal("Hawaiian",19.99)
-var mealTwo = new Meal("Borewors",19.00)
-var mealThree = new Meal("BBQ Steak",21.00)
-var mealFour = new Meal("Chicken Tikka",20.00)
-var mealFive = new Meal("Chicken Bacon BBQ",19.55)
-var mealSix = new Meal("Veg Feast",22.00)
-var mealSeven = new Meal("Spicy Borewors",22.50)
-var mealEight = new Meal("Chicken Pepperoni",23.00)
-var mealNine = new Meal("Chicken Mushroom",24.00)
-var mealTen = new Meal("Nyama Feast",24.55)
-var mealEleven = new Meal("Roast Veg & Feta",25.00)
-var mealTwelve = new Meal("Peri Peri Chicken",26.00)
+var mealOne = new Meal("Hawaiian",19.99, 5, 7, 9)
+var mealTwo = new Meal("Borewors",19.00, 5, 7, 9)
+var mealThree = new Meal("BBQ Steak",21.00, 5, 7, 9)
+var mealFour = new Meal("Chicken Tikka",20.00, 5, 7, 9)
+var mealFive = new Meal("Chicken Bacon BBQ",19.55, 5, 7, 9)
+var mealSix = new Meal("Veg Feast",22.00, 5, 7, 9)
+var mealSeven = new Meal("Spicy Borewors",22.50, 5, 7, 9)
+var mealEight = new Meal("Chicken Pepperoni",23.00, 5, 7, 9)
+var mealNine = new Meal("Chicken Mushroom",24.00, 5, 7, 9)
+var mealTen = new Meal("Nyama Feast",24.55, 5, 7, 9)
+var mealEleven = new Meal("Roast Veg & Feta",25.00, 5, 7, 9)
+var mealTwelve = new Meal("Peri Peri Chicken",26.00, 5, 7, 9)
 
 
 //user interface logic
