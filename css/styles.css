@@ -29,7 +29,7 @@ body {
 }
 
 .heading-1 {
-    margin-right: 50px;
+    margin-top: 50px;
     font-size: 14px;
 }
 
@@ -140,4 +140,36 @@ body {
 
 .location {
   display: none;
+}
+
+@media only screen and (max-width: 1100px) {
+  .delivery-bike img {
+    width: 700px;
+    height: 200px;
+    padding-right: 50px;
+  }
+  .card button {
+    height: 70px;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .delivery-bike img {
+    width: 220px;
+    height: 400px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .delivery-bike img {
+    width: 220px;
+    height: 400px;
+  }
+}
+
+.navbar.scrolled {
+  background-color: #fff !important;
+  opacity: 0.5;
+  transition: background-color 200ms linear;
 }
