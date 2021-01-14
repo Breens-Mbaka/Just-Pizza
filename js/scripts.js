@@ -28,52 +28,87 @@ $(document).ready(function() {
     $("#button-2").click(function() {
         var nameOfMealOne = mealOne.name
         var nameOfPriceOne = mealOne.price
+        var nameOfMealTwo = mealTwo.name
+        var smallSize = mealOne.smallSize
+        var mediumSize = mealOne.mediumSize
+        var largeSize = mealOne.largeSize
     }) ;
     $("#button-3").click(function() {
         var nameOfMealTwo = mealTwo.name
         var nameOfPriceTwo = mealTwo.price
+        var smallSize = mealTwo.smallSize
+        var mediumSize = mealTwo.mediumSize
+        var largeSize = mealTwo.largeSize
     }) ;
     $("#button-4").click(function() {
         var nameOfMealThree = mealThree.name
         var nameOfPriceThree = mealThree.price
+        var smallSize = mealThree.smallSize
+        var mediumSize = mealThree.mediumSize
+        var largeSize = mealThree.largeSize
     }) ;
     $("#button-5").click(function() {
         var nameOfMealFour = mealFour.name
         var nameOfPriceFour = mealFour.price
+        var smallSize = mealFour.smallSize
+        var mediumSize = mealFour.mediumSize
+        var largeSize = mealFour.largeSize
     }) ;
     $("#button-6").click(function() {
         var nameOfMealFive = mealFive.name
         var nameOfPriceFive = mealFive.price
+        var smallSize = mealFive.smallSize
+        var mediumSize = mealFive.mediumSize
+        var largeSize = mealFive.largeSize
     }) ;
     $("#button-7").click(function() {
         var nameOfMealSix = mealSix.name
         var nameOfPriceSix = mealSix.price
+        var smallSize = mealSix.smallSize
+        var mediumSize = mealSix.mediumSize
+        var largeSize = mealSix.largeSize
     }) ;
     $("#button-8").click(function() {
         var nameOfMealSeven = mealSeven.name
         var nameOfPriceSeven = mealSeven.price
+        var smallSize = mealSeven.smallSize
+        var mediumSize = mealSeven.mediumSize
+        var largeSize = mealSeven.largeSize
     }) ;
     $("#button-9").click(function() {
         var nameOfMealEight = mealEight.name
         var nameOfPriceEight = mealEight.price
+        var smallSize = mealEight.smallSize
+        var mediumSize = mealEight.mediumSize
+        var largeSize = mealEight.largeSize
     }) ;
     $("#button-10").click(function() {
         var nameOfMealNine = mealNine.name
         var nameOfPriceNine = mealNine.price
+        var smallSize = mealNine.smallSize
+        var mediumSize = mealNine.mediumSize
+        var largeSize = mealNine.largeSize
     }) ;
     $("#button-11").click(function() {
         var nameOfMealTen = mealTen.name
         var nameOfPriceTen = mealTen.price
+        var smallSize = mealTen.smallSize
+        var mediumSize = mealTen.mediumSize
+        var largeSize = mealTen.largeSize
     }) ;
     $("#button-12").click(function() {
         var nameOfMealEleven = mealEleven.name
         var nameOfPriceEleven = mealEleven.price
+        var smallSize = mealEleven.smallSize
+        var mediumSize = mealEleven.mediumSize
+        var largeSize = mealEleven.largeSize
     }) ;
     $("#button-12").click(function() {
         var nameOfMealTwelve = mealTwelve.name
         var nameOfPriceTwelve = mealTwelve.price
-        console.log(nameOfMealTwelve)
-        console.log(nameOfPriceTwelve)
+        var smallSize = mealTwelve.smallSize
+        var mediumSize = mealTwelve.mediumSize
+        var largeSize = mealTwelve.largeSize
     }) ;
     //get data from the options selected
     $("#order-1").click(function(){
