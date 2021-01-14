@@ -1,5 +1,5 @@
 //Business logic
-//Store data for the name of each item
+//Store data for the name and price of each item
 var hawaiian = {
     name:"hawaiian",
     price: 19.99
