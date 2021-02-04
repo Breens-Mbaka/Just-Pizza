@@ -28,7 +28,7 @@ code .
 ```
 
 ## Link to live site
-[live site](https://breens-thomas.github.io/Just-Pizza/)
+[live site](https://breens-mbaka.github.io/Just-Pizza/)
 
 ## Behaviour driven development
 * User sees categories of pizza available
